@@ -1,0 +1,229 @@
+/* This is global style. */
+body{
+    background-color: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    margin: 0;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: floralwhite;
+    text-align: center;
+}
+
+/* This is style for background. */
+.background{
+    position: absolute;
+    width: 100px;
+    height: 100%;
+}
+.background-img{
+    width: 1350px;
+    height: 621px;
+}
+
+/* This is style for heading text. */
+.heading-container{
+    padding: 190px;
+    position: relative;
+    text-align: center;
+}
+.heading-name{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 45px;
+    line-height: 0;
+    border: rgba(0, 0, 0, 0.8) solid 15px;
+}
+.heading-profession{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-left: 190px;
+    line-height: 0;
+}
+
+/* This is style for Bio. */
+.bio-container{
+    display: block;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 500px;
+    text-align: center;
+    margin-left: 800px;
+}
+.bio{
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* This is style for decoration block. */
+.dec-block{
+    position: absolute;
+    margin-top: 32px;
+    display: block;
+    width: 600px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* This is style for Experience display section */
+.exp-container{
+    position: absolute;
+    margin-left: 200px;
+    padding-top: 100px;
+}
+.experience-years{
+    font-size: 100px;
+    line-height: 0;
+}
+
+/* This is style for number-block. */
+.number-container{
+    /* display: flex; */
+    position: relative;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.upper-blocks,.lower-blocks{
+    display: flex;
+}
+.number-block-1,.number-block-2,.number-block-3,.number-block-4{
+    margin: 25px;
+    display: block;
+    background-color: darkviolet;
+    width: 300px;
+    height: 200px;
+}
+.number{
+    font-size: 80px;
+    line-height: 0;
+}
+.description{
+    line-height: 0;
+}
+
+/* This is style for Education Section. */
+.education-container{
+    margin: 50px;
+}
+.edu-heading{
+    text-align: left;
+    font-size: 40px;
+}
+.first-edu,.second-edu,.third-edu,.fourth-edu{
+    display: flex;
+    margin: 50px;
+    padding: 25px;
+    border-bottom: rgba(233, 4, 130, 0.5) solid 2px;
+}
+.year,.edu{
+    text-align: left;
+    font-size: 20px;
+}
+.year{
+    width: 20%;
+}
+.edu{
+    width: 70%;
+}
+.logo{
+    width: 10%;
+}
+
+/* This is style for featured project. */
+.project-container{
+    margin: 50px;
+}
+.project-heading{
+    text-align: right;
+    font-size: 40px;
+}
+.pj-content-container{
+    display: flex;
+}
+.pj-img{
+    width: 50%;
+}
+.pj1{
+    position: absolute;
+    width: 600px;
+}
+.pj1:hover{
+    transform: scale(1.03);
+}
+.pj2{
+    margin-top: 240px;
+    margin-left: 100px;
+    position: absolute;
+    width: 600px;
+}
+.pj2:hover{
+    transform: scale(1.03);
+}
+.pj-text{
+    width: 50%;
+}
+.pj-l{
+    color: floralwhite;
+    list-style: disc;
+}
+.pj-h{
+    font-size: 30px;
+}
+.pj-t{
+    text-align: left;
+    font-size: 20px;
+}
+.pj-b{
+    font-size: 15px;
+    margin-top: 170px;
+    margin-left: 250px;
+    width: 300px;
+    height: 50px;
+}
+
+/* This is style for animation. */
+.animation-container{
+    margin-top: 20px;
+    background-color: rgb(194, 230, 242);
+    border-top: black 3px solid;
+    border-bottom: black 3px solid;
+}
+.ani-img{
+    width:100px;
+}
+.ani-t{
+    color: black;
+    font-size: 20px;
+}
+.animation{
+    display: flex;
+    animation: ani 15s linear infinite ;
+}
+@keyframes ani{
+    from{
+        transform: translate(-450px);
+    }
+    to{
+        transform: translate(1500px);
+    }
+}
+
+/* This is style for Contect Us links. */
+.links-container{
+    padding: 10px;
+    background-color: rgba(243, 236, 236, 0.555);
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid;
+}
+.link{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.link p{
+    color: black;
+    width: 150px;
+    text-align: left;
+}
